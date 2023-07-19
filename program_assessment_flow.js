@@ -1882,7 +1882,7 @@ let startFunk = setInterval(() => {
       <section class="greetings_box">
         <p class="name_txt">Awesome, <span class="person_name_var">Name</span>! <span>Based on the information you have provided,</span></p>
         <p class="tooltip_wrapper">
-          <span class="your_person_var">Your Grade: </span> <span>B+</span>
+          <span class="your_person_var">Your Grade: </span class="accent_var"> <span>B+</span>
         </p>
         <p class="get_admitted">You have a <span class="accent_var">good</span> chance of being admitted and are eligible for<span class="accent_var funding_price">$96,250</span> in funding<br><br><span class="accent_var grade_var">Grade 9-10</span> students can double their school admission chances and win 2-10x more scholarships.</p>
       </section>
@@ -2382,6 +2382,8 @@ let startFunk = setInterval(() => {
         } else {
           document.querySelector(".person_name_var").textContent = document.querySelector("#edit-first-name").value;
           document.querySelector(".your_person_var").textContent = "Your Grade: ";
+            document.querySelector(".parent-child-change").textContent = "you"
+        document.querySelector(".user-check-reference").textContent = "are"
           document.querySelector(".add_guests_btn").classList.add("is_hidden");
           document.querySelector("#newFirstNameGuest").previousElementSibling.innerHTML = "Parent First name <b>*</b>";
           document.querySelector("#newLastNameGuest").previousElementSibling.innerHTML = "Parent Last name <b>*</b>";
