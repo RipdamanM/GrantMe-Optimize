@@ -1917,9 +1917,9 @@ let startFunk = setInterval(() => {
           <h3>What you’ll learn on the call:</h3>
           <ul>
             <li>Which <span>university is the right fit</span> for <span class="parent-child-change">you</span></li>
-            <li>How <span class="parent-child-change">you</span> can <span>increas your odds</span> of getting into your top-choice school</li>
-            <li>Which <span>scholarships and funding opportunities</span> <span class="parent-child-change">you</span> <span class="user-check-reference">are</span> eligible for</li>
-            <li>If <span class="parent-child-change">you</span> will be <span>offered a spot</span> into GrantMe’s programs</li>
+            <li>How <span class="parent-child-change">your child</span> can <span>increas your odds</span> of getting into your top-choice school</li>
+            <li>Which <span>scholarships and funding opportunities</span> <span class="parent-child-change">your child</span> <span class="user-check-reference">are</span> eligible for</li>
+            <li>If <span class="parent-child-change">your child</span> will be <span>offered a spot</span> into GrantMe’s programs</li>
           </ul>
         </div>
         <div>
