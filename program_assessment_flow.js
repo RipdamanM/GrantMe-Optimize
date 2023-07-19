@@ -1884,7 +1884,7 @@ let startFunk = setInterval(() => {
         <p class="tooltip_wrapper">
           <span class="your_person_var">Your Grade: </span> <span class="accent_var">B+</span>
         </p>
-        <p class="get_admitted">You have a <span class="accent_var">good</span> chance of being admitted and are eligible for<span class="accent_var funding_price">$96,250</span> in funding<br><br><span class="accent_var grade_var">Grade 9-10</span> students can double their school admission chances and win 2-10x more scholarships.</p>
+        <p class="get_admitted"><span class="get_admitted_user">You have</span> a <span class="accent_var">good</span> chance of being admitted and <span class="eligibility_user">you're</span> eligible for<span class="accent_var funding_price">$96,250</span> in funding<br><br><span class="accent_var grade_var">Grade 9-10</span> students can double their school admission chances and win 2-10x more scholarships.</p>
       </section>
       <section class="reviews_btn_box">
         <h2>Book a <span class="accent_var">Free</span> call to find out how to get this scholarship</h2>
@@ -2130,9 +2130,6 @@ let startFunk = setInterval(() => {
               </div>
             </div>
             <div class="testimonials_item">
-            <script src="https://fast.wistia.com/embed/medias/jjxyh7vxsw.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:177.5% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_jjxyh7vxsw videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/jjxyh7vxsw/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
-          </div>
-            <div class="testimonials_item">
               <div class="testimonials_content">
                 <div class="testimonials_content_text">“My favourite part of GrantMe was the wonderful essay editing, really helpful feedback, and great turnaround times”</div>
               </div>
@@ -2145,9 +2142,6 @@ let startFunk = setInterval(() => {
                   <div class="testimonials_school">Simon Fraser University</div>
                 </div>
               </div>
-            </div>
-            <div class="testimonials_item">
-              <script src="https://fast.wistia.com/embed/medias/6utt82y2dy.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:177.71% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_6utt82y2dy videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/6utt82y2dy/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
             </div>
             <div class="testimonials_item">
               <div class="testimonials_item_last">
@@ -2346,7 +2340,9 @@ let startFunk = setInterval(() => {
           document.querySelector(".your_person_var").textContent = "Your Child's Grade: ";
         document.querySelectorAll(".parent-child-change").forEach(function(element) { element.textContent = 'your child';});
         document.querySelector(".user-check-reference").textContent = "is";
-            document.querySelectorAll(".user-check-reference-your").forEach(function(element) { element.textContent = 'their';});
+        document.querySelector(".get_admitted_user").textContent = "Your Child has";
+        document.querySelector(".eligibility_user").textContent = "they're";
+        document.querySelectorAll(".user-check-reference-your").forEach(function(element) { element.textContent = 'their';});
           document.querySelector(".step_all").textContent = "3";
           document.querySelector("#newFirstNameGuest").previousElementSibling.textContent = "Guest First name";
           document.querySelector("#newLastNameGuest").previousElementSibling.textContent = "Guest Last name";
@@ -2384,8 +2380,10 @@ let startFunk = setInterval(() => {
           document.querySelector(".person_name_var").textContent = document.querySelector("#edit-first-name").value;
           document.querySelector(".your_person_var").textContent = "Your Grade: ";
         document.querySelectorAll(".parent-child-change").forEach(function(element) { element.textContent = 'you';});
-          document.querySelector(".user-check-reference").textContent = "are";
-            document.querySelectorAll(".user-check-reference-your").forEach(function(element) { element.textContent = 'your';});
+        document.querySelector(".user-check-reference").textContent = "are";
+        document.querySelector(".get_admitted_user").textContent = "You have";
+        document.querySelectorAll(".user-check-reference-your").forEach(function(element) { element.textContent = 'your';});
+        document.querySelector(".eligibility_user").textContent = "you're";
           document.querySelector(".add_guests_btn").classList.add("is_hidden");
           document.querySelector("#newFirstNameGuest").previousElementSibling.innerHTML = "Parent First name <b>*</b>";
           document.querySelector("#newLastNameGuest").previousElementSibling.innerHTML = "Parent Last name <b>*</b>";
