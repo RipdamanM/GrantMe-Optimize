@@ -111,7 +111,7 @@ let startFunk = setInterval(() => {
     text-align: left !important;
   }
   .get_admitted {
-    padding-left: 16px;
+    padding-right: 24px;
   }
   .greetings_box .get_admitted {
     font-family: "Lato", sans-serif;
