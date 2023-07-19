@@ -1882,7 +1882,7 @@ let startFunk = setInterval(() => {
       <section class="greetings_box">
         <p class="name_txt">Awesome, <span class="person_name_var">Name</span>! <span>Based on the information you have provided,</span></p>
         <p class="tooltip_wrapper">
-          <span class="your_person_var">Your Grade: </span class="accent_var"> <span>B+</span>
+          <span class="your_person_var">Your Grade: </span> <span class="accent_var">B+</span>
         </p>
         <p class="get_admitted">You have a <span class="accent_var">good</span> chance of being admitted and are eligible for<span class="accent_var funding_price">$96,250</span> in funding<br><br><span class="accent_var grade_var">Grade 9-10</span> students can double their school admission chances and win 2-10x more scholarships.</p>
       </section>
