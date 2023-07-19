@@ -2346,7 +2346,7 @@ let startFunk = setInterval(() => {
           document.querySelector(".your_person_var").textContent = "Your Child's Grade: ";
         document.querySelectorAll(".parent-child-change").forEach(function(element) { element.textContent = 'your child';});
         document.querySelector(".user-check-reference").textContent = "is";
-            document.querySelectorAll(".user-check-reference-your").textContent = "their";
+            document.querySelectorAll(".user-check-reference-your").forEach(function(element) { element.textContent = 'their';});
           document.querySelector(".step_all").textContent = "3";
           document.querySelector("#newFirstNameGuest").previousElementSibling.textContent = "Guest First name";
           document.querySelector("#newLastNameGuest").previousElementSibling.textContent = "Guest Last name";
@@ -2385,7 +2385,7 @@ let startFunk = setInterval(() => {
           document.querySelector(".your_person_var").textContent = "Your Grade: ";
         document.querySelectorAll(".parent-child-change").forEach(function(element) { element.textContent = 'you';});
           document.querySelector(".user-check-reference").textContent = "are";
-          document.querySelectorAll(".user-check-reference-your").textContent = "your";
+            document.querySelectorAll(".user-check-reference-your").forEach(function(element) { element.textContent = 'your';});
           document.querySelector(".add_guests_btn").classList.add("is_hidden");
           document.querySelector("#newFirstNameGuest").previousElementSibling.innerHTML = "Parent First name <b>*</b>";
           document.querySelector("#newLastNameGuest").previousElementSibling.innerHTML = "Parent Last name <b>*</b>";
