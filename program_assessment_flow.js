@@ -1917,9 +1917,9 @@ let startFunk = setInterval(() => {
           <h3>What you’ll learn on the call:</h3>
           <ul>
             <li>Which <span>university is the right fit</span> for <span class="parent-child-change">you</span></li>
-            <li>How <span class="parent-child-change">your child</span> can <span>increase your odds</span> of getting into your top-choice school</li>
-            <li>Which <span>scholarships and funding opportunities</span> <span class="parent-child-change">your child</span> <span class="user-check-reference">are</span> eligible for</li>
-            <li>If <span class="parent-child-change">your child</span> will be <span>offered a spot</span> into GrantMe’s programs</li>
+            <li>How <span class="parent-child-change">you</span> can <span>increase <span class="user-check-reference-your">your</span> odds</span> of getting into <span class="user-check-reference-your">your</span> top-choice school</li>
+            <li>Which <span>scholarships and funding opportunities</span> <span class="parent-child-change">you</span> <span class="user-check-reference">are</span> eligible for</li>
+            <li>If <span class="parent-child-change">you</span> will be <span>offered a spot</span> into GrantMe’s programs</li>
           </ul>
         </div>
         <div>
@@ -2344,8 +2344,9 @@ let startFunk = setInterval(() => {
         if (paramsLocation.get("user_type") === "parent") {
           document.querySelector(".person_name_var").textContent = document.querySelector("#edit-parent-first-name").value;
           document.querySelector(".your_person_var").textContent = "Your Child's Grade: ";
-        document.querySelector(".parent-child-change").textContent = "your child";
+        document.querySelectorAll(".parent-child-change").textContent = "your child";
         document.querySelector(".user-check-reference").textContent = "is";
+            document.querySelectorAll(".user-check-reference-your").textContent = "their";
           document.querySelector(".step_all").textContent = "3";
           document.querySelector("#newFirstNameGuest").previousElementSibling.textContent = "Guest First name";
           document.querySelector("#newLastNameGuest").previousElementSibling.textContent = "Guest Last name";
@@ -2382,8 +2383,9 @@ let startFunk = setInterval(() => {
         } else {
           document.querySelector(".person_name_var").textContent = document.querySelector("#edit-first-name").value;
           document.querySelector(".your_person_var").textContent = "Your Grade: ";
-            document.querySelector(".parent-child-change").textContent = "you";
-        document.querySelector(".user-check-reference").textContent = "are";
+          document.querySelectorAll(".parent-child-change").textContent = "you";
+          document.querySelector(".user-check-reference").textContent = "are";
+          document.querySelectorAll(".user-check-reference-your").textContent = "your";
           document.querySelector(".add_guests_btn").classList.add("is_hidden");
           document.querySelector("#newFirstNameGuest").previousElementSibling.innerHTML = "Parent First name <b>*</b>";
           document.querySelector("#newLastNameGuest").previousElementSibling.innerHTML = "Parent Last name <b>*</b>";
