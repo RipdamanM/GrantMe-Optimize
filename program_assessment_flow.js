@@ -2344,7 +2344,7 @@ let startFunk = setInterval(() => {
         if (paramsLocation.get("user_type") === "parent") {
           document.querySelector(".person_name_var").textContent = document.querySelector("#edit-parent-first-name").value;
           document.querySelector(".your_person_var").textContent = "Your Child's Grade: ";
-        document.querySelectorAll(".parent-child-change").textContent = "your child";
+        document.querySelectorAll(".parent-child-change").forEach(function(element) { element.textContent = 'your child';});
         document.querySelector(".user-check-reference").textContent = "is";
             document.querySelectorAll(".user-check-reference-your").textContent = "their";
           document.querySelector(".step_all").textContent = "3";
@@ -2383,7 +2383,7 @@ let startFunk = setInterval(() => {
         } else {
           document.querySelector(".person_name_var").textContent = document.querySelector("#edit-first-name").value;
           document.querySelector(".your_person_var").textContent = "Your Grade: ";
-          document.querySelectorAll(".parent-child-change").textContent = "you";
+        document.querySelectorAll(".parent-child-change").forEach(function(element) { element.textContent = 'you';});
           document.querySelector(".user-check-reference").textContent = "are";
           document.querySelectorAll(".user-check-reference-your").textContent = "your";
           document.querySelector(".add_guests_btn").classList.add("is_hidden");
