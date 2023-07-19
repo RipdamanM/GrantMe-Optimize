@@ -110,6 +110,9 @@ let startFunk = setInterval(() => {
     display: block;
     text-align: left !important;
   }
+  .get_admitted {
+    padding-left: 16px;
+  }
   .greetings_box .get_admitted {
     font-family: "Lato", sans-serif;
     font-weight: 600 !important;
@@ -1879,8 +1882,8 @@ let startFunk = setInterval(() => {
       <section class="greetings_box">
         <p class="name_txt">Awesome, <span class="person_name_var">Name</span>! <span>Based on the information you have provided,</span></p>
         <p class="tooltip_wrapper">
-          <span class="your_person_var">You are </span> Eligible For <span class="accent_var funding_price">$96,250</span> <span class="txt_relative">In Funding <svg data-title='Atlas cedarwood oil has natural sedative properties that can help reduce stress and anxiety. Its calming effects on the nervous system can promote relaxation and improve sleep quality, which can be beneficial for children with anxiety or sleep disturbances.' data-tolltip class="tooltip_btn" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
+          <span class="your_person_var">Your Grade: </span><span class="accent_var funding_price">B+</span> <span class="txt_relative"> <svg data-title='Atlas cedarwood oil has natural sedative properties that can help reduce stress and anxiety. Its calming effects on the nervous system can promote relaxation and improve sleep quality, which can be beneficial for children with anxiety or sleep disturbances.' data-tolltip class="tooltip_btn" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <pat
               d="M9 15H11V9H9V15ZM10 7C10.2833 7 10.521 6.904 10.713 6.712C10.905 6.52 11.0007 6.28267 11 6C11 5.71667 10.904 5.479 10.712 5.287C10.52 5.095 10.2827 4.99933 10 5C9.71667 5 9.479 5.096 9.287 5.288C9.095 5.48 8.99933 5.71733 9 6C9 6.28333 9.096 6.521 9.288 6.713C9.48 6.905 9.71733 7.00067 10 7ZM10 20C8.61667 20 7.31667 19.7373 6.1 19.212C4.88333 18.6867 3.825 17.9743 2.925 17.075C2.025 16.175 1.31267 15.1167 0.788 13.9C0.263333 12.6833 0.000666667 11.3833 0 10C0 8.61667 0.262667 7.31667 0.788 6.1C1.31333 4.88333 2.02567 3.825 2.925 2.925C3.825 2.025 4.88333 1.31267 6.1 0.788C7.31667 0.263333 8.61667 0.000666667 10 0C11.3833 0 12.6833 0.262667 13.9 0.788C15.1167 1.31333 16.175 2.02567 17.075 2.925C17.975 3.825 18.6877 4.88333 19.213 6.1C19.7383 7.31667 20.0007 8.61667 20 10C20 11.3833 19.7373 12.6833 19.212 13.9C18.6867 15.1167 17.9743 16.175 17.075 17.075C16.175 17.975 15.1167 18.6877 13.9 19.213C12.6833 19.7383 11.3833 20.0007 10 20ZM10 18C12.2333 18 14.125 17.225 15.675 15.675C17.225 14.125 18 12.2333 18 10C18 7.76667 17.225 5.875 15.675 4.325C14.125 2.775 12.2333 2 10 2C7.76667 2 5.875 2.775 4.325 4.325C2.775 5.875 2 7.76667 2 10C2 12.2333 2.775 14.125 4.325 15.675C5.875 17.225 7.76667 18 10 18Z"
               fill="white"
             />
@@ -1918,17 +1921,17 @@ let startFunk = setInterval(() => {
         <div>
           <h3>What you’ll learn on the call:</h3>
           <ul>
-            <li>Which <span>university is the right fit</span> for you</li>
-            <li>How you can <span>increas your odds</span> of getting into your top-choice school</li>
-            <li>Which <span>scholarships and funding opportunities</span> you are eligible for</li>
-            <li>If you will be <span>offered a spot</span> into GrantMe’s programs</li>
+            <li>Which <span>university is the right fit</span> for <span class="parent-child-change">you</span></li>
+            <li>How <span class="parent-child-change">you</span> can <span>increas your odds</span> of getting into your top-choice school</li>
+            <li>Which <span>scholarships and funding opportunities</span> <span class="parent-child-change">you</span> <span class="user-check-reference">are</span> eligible for</li>
+            <li>If <span class="parent-child-change">you</span> will be <span>offered a spot</span> into GrantMe’s programs</li>
           </ul>
         </div>
         <div>
           <h3>After call you’ll get:</h3>
           <ul>
             <li><span>Resources</span> on how to get in to top schools</li>
-            <li><span>Action plan</span> to get your child started with university & scholarship preparation!</li>
+            <li><span>Action plan</span> to get <span class="parent-child-change">you</span> started with university & scholarship preparation!</li>
           </ul>
         </div>
         <div class="no_commitments_wrapper">
@@ -2345,7 +2348,9 @@ let startFunk = setInterval(() => {
   
         if (paramsLocation.get("user_type") === "parent") {
           document.querySelector(".person_name_var").textContent = document.querySelector("#edit-parent-first-name").value;
-          document.querySelector(".your_person_var").textContent = "Your Child Is";
+          document.querySelector(".your_person_var").textContent = "Your Child's Grade:";
+        document.querySelector(".parent-child-change").textContent = "your child"
+        document.querySelector(".user-check-reference").textContent = "is"
           document.querySelector(".step_all").textContent = "3";
           document.querySelector("#newFirstNameGuest").previousElementSibling.textContent = "Guest First name";
           document.querySelector("#newLastNameGuest").previousElementSibling.textContent = "Guest Last name";
@@ -2381,7 +2386,7 @@ let startFunk = setInterval(() => {
           }
         } else {
           document.querySelector(".person_name_var").textContent = document.querySelector("#edit-first-name").value;
-          document.querySelector(".your_person_var").textContent = "You Are";
+          document.querySelector(".your_person_var").textContent = "Your Grade";
           document.querySelector(".add_guests_btn").classList.add("is_hidden");
           document.querySelector("#newFirstNameGuest").previousElementSibling.innerHTML = "Parent First name <b>*</b>";
           document.querySelector("#newLastNameGuest").previousElementSibling.innerHTML = "Parent Last name <b>*</b>";
