@@ -3,12 +3,12 @@ let startFunk = setInterval(() => {
       clearInterval(startFunk);
   
       let scriptCalendar = document.createElement("script");
-      scriptCalendar.src = "https://conversionratestore.github.io/projects/jquery.simple-calendar.js";
+      scriptCalendar.src = "https://ripdamanm.github.io/jquery.simple-calendar.js";
       scriptCalendar.async = false;
       document.head.appendChild(scriptCalendar);
   
       let scriptCalendarStyle = document.createElement("link");
-      scriptCalendarStyle.href = "https://conversionratestore.github.io/projects/simple-calendar.scss";
+      scriptCalendarStyle.href = "https://ripdamanm.github.io/simple-calendar.scss";
       scriptCalendarStyle.rel = "stylesheet";
       document.head.appendChild(scriptCalendarStyle);
   
@@ -180,16 +180,16 @@ let startFunk = setInterval(() => {
     content: "";
     width: 24px;
     height: 24px;
-    background: url(https://conversionratestore.github.io/projects/grantme/img/dollar.svg) no-repeat center center;
+    background: url(https://ripdamanm.github.io/img/dollar.svg) no-repeat center center;
     top: 50%;
     transform: translateY(-50%);
     left: 0;
   }
   .new_schedule_box .new_schedule_descr span:nth-child(2):before {
-    background: url(https://conversionratestore.github.io/projects/grantme/img/clock.svg) no-repeat center center;
+    background: url(https://ripdamanm.github.io/img/clock.svg) no-repeat center center;
   }
   .new_schedule_box .new_schedule_descr span:nth-child(3):before {
-    background: url(https://conversionratestore.github.io/projects/grantme/img/zoom.svg) no-repeat center center;
+    background: url(https://ripdamanm.github.io/img/zoom.svg) no-repeat center center;
   }
   .new_schedule {
     position: relative;
@@ -289,7 +289,7 @@ let startFunk = setInterval(() => {
     content: "";
     width: 16px;
     height: 16px;
-    background: url(https://conversionratestore.github.io/projects/grantme/img/planet.svg) no-repeat center center;
+    background: url(https://ripdamanm.github.io/img/planet.svg) no-repeat center center;
     top: 50%;
     transform: translateY(-50%);
     left: 0;
@@ -322,7 +322,7 @@ let startFunk = setInterval(() => {
     content: "";
     width: 20px;
     height: 20px;
-    background: url(https://conversionratestore.github.io/projects/grantme/img/telephone.svg) no-repeat center center;
+    background: url(https://ripdamanm.github.io/img/telephone.svg) no-repeat center center;
     top: 50%;
     transform: translateY(-50%);
     left: 0;
@@ -370,7 +370,7 @@ let startFunk = setInterval(() => {
   .reviews_btn_box h2::after {
     position: absolute;
     content: "";
-    background: url(https://conversionratestore.github.io/projects/grantme/img/arrow.png) no-repeat center center;
+    background: url(https://ripdamanm.github.io/img/arrow.png) no-repeat center center;
     width: 37px;
     height: 90px;
     top: 26px;
@@ -807,10 +807,10 @@ let startFunk = setInterval(() => {
     transform: translate(-50%, -50%);
     width: 8px;
     height: 16px;
-    background: url(https://conversionratestore.github.io/projects/grantme/img/btn_next_calendar.svg) no-repeat center center;
+    background: url(https://ripdamanm.github.io/img/btn_next_calendar.svg) no-repeat center center;
   }
   .calendar header .simple-calendar-btn.btn-prev:before {
-    background: url(https://conversionratestore.github.io/projects/grantme/img/btn_prev_calendar.svg) no-repeat center center;
+    background: url(https://ripdamanm.github.io/img/btn_prev_calendar.svg) no-repeat center center;
   }
   
   .calendar header .btn-prev {
@@ -952,7 +952,7 @@ let startFunk = setInterval(() => {
     transform: translateY(-50%);
     width: 16px;
     height: 16px;
-    background: url(https://conversionratestore.github.io/projects/grantme/img/arr_select.svg) no-repeat center center;
+    background: url(https://ripdamanm.github.io/img/arr_select.svg) no-repeat center center;
     transition: all 300ms cubic-bezier(0.4, 0, 1, 1);
   }
   .chosen_select div.select_custom.is_visit::after {
@@ -1044,15 +1044,15 @@ let startFunk = setInterval(() => {
     transform: translateY(-50%);
     width: 16px;
     height: 16px;
-    background: url(https://conversionratestore.github.io/projects/grantme/img/mini_clock.svg) no-repeat center center;
+    background: url(https://ripdamanm.github.io/img/mini_clock.svg) no-repeat center center;
   }
   .calc_step_third > p > span:nth-child(2):before,
   .calc_step_fourth > p > span:nth-child(2):before{
-    background: url(https://conversionratestore.github.io/projects/grantme/img/mini_calendar.svg) no-repeat center center;
+    background: url(https://ripdamanm.github.io/img/mini_calendar.svg) no-repeat center center;
   }
   .calc_step_third > p > span:nth-child(3):before,
   .calc_step_fourth > p > span:nth-child(3):before{
-    background: url(https://conversionratestore.github.io/projects/grantme/img/mini_planet.svg) no-repeat center center;
+    background: url(https://ripdamanm.github.io/img/mini_planet.svg) no-repeat center center;
   }
   .calc_step_third > h3,
   .calc_step_fourth > h3{
@@ -1452,7 +1452,7 @@ let startFunk = setInterval(() => {
     .consultation_descr_box h2::before {
       position: absolute;
       content: "";
-      background: url(https://conversionratestore.github.io/projects/grantme/img/title_arrow.svg) no-repeat center center;
+      background: url(https://ripdamanm.github.io/img/title_arrow.svg) no-repeat center center;
       width: 24px;
       height: 24px;
       top: 0;
@@ -1916,17 +1916,17 @@ let startFunk = setInterval(() => {
         <div>
           <h3>What you’ll learn on the call:</h3>
           <ul>
-            <li>Which <span>university is the right fit</span> for <span class="parent-child-change">you</span></li>
-            <li>How <span class="parent-child-change">you</span> can <span>increase <span class="user-check-reference-your">your</span> odds</span> of getting into <span class="user-check-reference-your">your</span> top-choice school</li>
-            <li>Which <span>scholarships and funding opportunities</span> <span class="parent-child-change">you</span> <span class="user-check-reference">are</span> eligible for</li>
-            <li>If <span class="parent-child-change">you</span> will be <span>offered a spot</span> into GrantMe’s programs</li>
+            <li>Which <span>university is the right fit</span> for <span class="parent_child_change">you</span></li>
+            <li>How <span class="parent_child_change">you</span> can <span>increase <span class="user_check_reference_your">your</span> odds</span> of getting into <span class="user_check_reference_your">your</span> top-choice school</li>
+            <li>Which <span>scholarships and funding opportunities</span> <span class="parent_child_change">you</span> <span class="user_check_reference">are</span> eligible for</li>
+            <li>If <span class="parent_child_change">you</span> will be <span>offered a spot</span> into GrantMe’s programs</li>
           </ul>
         </div>
         <div>
           <h3>After call you’ll get:</h3>
           <ul>
             <li><span>Resources</span> on how to get in to top schools</li>
-            <li><span>Action plan</span> to get <span class="parent-child-change">you</span> started with university & scholarship preparation!</li>
+            <li><span>Action plan</span> to get <span class="parent_child_change">you</span> started with university & scholarship preparation!</li>
           </ul>
         </div>
         <div class="no_commitments_wrapper">
@@ -2078,7 +2078,7 @@ let startFunk = setInterval(() => {
           <h3>No suitable times for you?</h3>
           <p>Call or text us <a href="tel:+17787711847">(778) 771-1847</a></p>
           <div>
-            <img src="https://conversionratestore.github.io/projects/grantme/img/our_consultants.png" alt="Our consultants" />
+            <img src="https://ripdamanm.github.io/img/our_consultants.png" alt="Our consultants" />
             <p>Our consultants are ready to help you</p>
           </div>
         </div>
@@ -2090,9 +2090,9 @@ let startFunk = setInterval(() => {
         <h2>As Seen On</h2>
         <div>
           <div class="img_wrapper">
-            <img src="https://conversionratestore.github.io/projects/grantme/img/forbes.png" alt="Forbes" />
-            <img src="https://conversionratestore.github.io/projects/grantme/img/cbc.png" alt="CBC" />
-            <img src="https://conversionratestore.github.io/projects/grantme/img/macleans.png" alt='Macleans' />
+            <img src="https://ripdamanm.github.io/img/forbes.png" alt="Forbes" />
+            <img src="https://ripdamanm.github.io/img/cbc.png" alt="CBC" />
+            <img src="https://ripdamanm.github.io/img/macleans.png" alt='Macleans' />
           </div>
           <div class="count_txt_wrapper">
             <div>
@@ -2130,6 +2130,9 @@ let startFunk = setInterval(() => {
               </div>
             </div>
             <div class="testimonials_item">
+              <script src="https://fast.wistia.com/embed/medias/jjxyh7vxsw.jsonp" async></script><div class="wistia_responsive_padding" style="padding:177.5% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_jjxyh7vxsw videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/jjxyh7vxsw/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+            </div>
+            <div class="testimonials_item">
               <div class="testimonials_content">
                 <div class="testimonials_content_text">“My favourite part of GrantMe was the wonderful essay editing, really helpful feedback, and great turnaround times”</div>
               </div>
@@ -2142,6 +2145,9 @@ let startFunk = setInterval(() => {
                   <div class="testimonials_school">Simon Fraser University</div>
                 </div>
               </div>
+            </div>
+            <div class="testimonials_item">
+              <script src="https://fast.wistia.com/embed/medias/6utt82y2dy.jsonp" async></script><div class="wistia_responsive_padding" style="padding:177.71% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_6utt82y2dy videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/6utt82y2dy/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
             </div>
             <div class="testimonials_item">
               <div class="testimonials_item_last">
@@ -2338,11 +2344,11 @@ let startFunk = setInterval(() => {
         if (paramsLocation.get("user_type") === "parent") {
           document.querySelector(".person_name_var").textContent = document.querySelector("#edit-parent-first-name").value;
           document.querySelector(".your_person_var").textContent = "Your Child's Grade: ";
-        document.querySelectorAll(".parent-child-change").forEach(function(element) { element.textContent = 'your child';});
-        document.querySelector(".user-check-reference").textContent = "is";
+        document.querySelectorAll(".parent_child_change").forEach(function(element) { element.textContent = 'your child';});
+        document.querySelector(".user_check_reference").textContent = "is";
         document.querySelector(".get_admitted_user").textContent = "Your Child has";
         document.querySelector(".eligibility_user").textContent = "they're";
-        document.querySelectorAll(".user-check-reference-your").forEach(function(element) { element.textContent = 'their';});
+        document.querySelectorAll(".user_check_reference_your").forEach(function(element) { element.textContent = 'their';});
           document.querySelector(".step_all").textContent = "3";
           document.querySelector("#newFirstNameGuest").previousElementSibling.textContent = "Guest First name";
           document.querySelector("#newLastNameGuest").previousElementSibling.textContent = "Guest Last name";
@@ -2379,10 +2385,10 @@ let startFunk = setInterval(() => {
         } else {
           document.querySelector(".person_name_var").textContent = document.querySelector("#edit-first-name").value;
           document.querySelector(".your_person_var").textContent = "Your Grade: ";
-        document.querySelectorAll(".parent-child-change").forEach(function(element) { element.textContent = 'you';});
-        document.querySelector(".user-check-reference").textContent = "are";
+        document.querySelectorAll(".parent_child_change").forEach(function(element) { element.textContent = 'you';});
+        document.querySelector(".user_check_reference").textContent = "are";
         document.querySelector(".get_admitted_user").textContent = "You have";
-        document.querySelectorAll(".user-check-reference-your").forEach(function(element) { element.textContent = 'your';});
+        document.querySelectorAll(".user_check_reference_your").forEach(function(element) { element.textContent = 'your';});
         document.querySelector(".eligibility_user").textContent = "you're";
           document.querySelector(".add_guests_btn").classList.add("is_hidden");
           document.querySelector("#newFirstNameGuest").previousElementSibling.innerHTML = "Parent First name <b>*</b>";
