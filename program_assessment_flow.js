@@ -180,16 +180,16 @@ let startFunk = setInterval(() => {
     content: "";
     width: 24px;
     height: 24px;
-    background: url(https://ripdamanm.github.io/img/dollar.svg) no-repeat center center;
+    background: url(https://ripdamanm.github.io/dollar.svg) no-repeat center center;
     top: 50%;
     transform: translateY(-50%);
     left: 0;
   }
   .new_schedule_box .new_schedule_descr span:nth-child(2):before {
-    background: url(https://ripdamanm.github.io/img/clock.svg) no-repeat center center;
+    background: url(https://ripdamanm.github.io/clock.svg) no-repeat center center;
   }
   .new_schedule_box .new_schedule_descr span:nth-child(3):before {
-    background: url(https://ripdamanm.github.io/img/zoom.svg) no-repeat center center;
+    background: url(https://ripdamanm.github.io/zoom.svg) no-repeat center center;
   }
   .new_schedule {
     position: relative;
@@ -289,7 +289,7 @@ let startFunk = setInterval(() => {
     content: "";
     width: 16px;
     height: 16px;
-    background: url(https://ripdamanm.github.io/img/planet.svg) no-repeat center center;
+    background: url(https://ripdamanm.github.io/planet.svg) no-repeat center center;
     top: 50%;
     transform: translateY(-50%);
     left: 0;
@@ -322,7 +322,7 @@ let startFunk = setInterval(() => {
     content: "";
     width: 20px;
     height: 20px;
-    background: url(https://ripdamanm.github.io/img/telephone.svg) no-repeat center center;
+    background: url(https://ripdamanm.github.io/telephone.svg) no-repeat center center;
     top: 50%;
     transform: translateY(-50%);
     left: 0;
@@ -370,7 +370,7 @@ let startFunk = setInterval(() => {
   .reviews_btn_box h2::after {
     position: absolute;
     content: "";
-    background: url(https://ripdamanm.github.io/img/arrow.png) no-repeat center center;
+    background: url(https://ripdamanm.github.io/arrow.png) no-repeat center center;
     width: 37px;
     height: 90px;
     top: 26px;
@@ -807,10 +807,10 @@ let startFunk = setInterval(() => {
     transform: translate(-50%, -50%);
     width: 8px;
     height: 16px;
-    background: url(https://ripdamanm.github.io/img/btn_next_calendar.svg) no-repeat center center;
+    background: url(https://ripdamanm.github.io/btn_next_calendar.svg) no-repeat center center;
   }
   .calendar header .simple-calendar-btn.btn-prev:before {
-    background: url(https://ripdamanm.github.io/img/btn_prev_calendar.svg) no-repeat center center;
+    background: url(https://ripdamanm.github.io/btn_prev_calendar.svg) no-repeat center center;
   }
   
   .calendar header .btn-prev {
@@ -952,7 +952,7 @@ let startFunk = setInterval(() => {
     transform: translateY(-50%);
     width: 16px;
     height: 16px;
-    background: url(https://ripdamanm.github.io/img/arr_select.svg) no-repeat center center;
+    background: url(https://ripdamanm.github.io/arr_select.svg) no-repeat center center;
     transition: all 300ms cubic-bezier(0.4, 0, 1, 1);
   }
   .chosen_select div.select_custom.is_visit::after {
@@ -1044,15 +1044,15 @@ let startFunk = setInterval(() => {
     transform: translateY(-50%);
     width: 16px;
     height: 16px;
-    background: url(https://ripdamanm.github.io/img/mini_clock.svg) no-repeat center center;
+    background: url(https://ripdamanm.github.io/mini_clock.svg) no-repeat center center;
   }
   .calc_step_third > p > span:nth-child(2):before,
   .calc_step_fourth > p > span:nth-child(2):before{
-    background: url(https://ripdamanm.github.io/img/mini_calendar.svg) no-repeat center center;
+    background: url(https://ripdamanm.github.io/mini_calendar.svg) no-repeat center center;
   }
   .calc_step_third > p > span:nth-child(3):before,
   .calc_step_fourth > p > span:nth-child(3):before{
-    background: url(https://ripdamanm.github.io/img/mini_planet.svg) no-repeat center center;
+    background: url(https://ripdamanm.github.io/mini_planet.svg) no-repeat center center;
   }
   .calc_step_third > h3,
   .calc_step_fourth > h3{
@@ -1452,7 +1452,7 @@ let startFunk = setInterval(() => {
     .consultation_descr_box h2::before {
       position: absolute;
       content: "";
-      background: url(https://ripdamanm.github.io/img/title_arrow.svg) no-repeat center center;
+      background: url(https://ripdamanm.github.io/title_arrow.svg) no-repeat center center;
       width: 24px;
       height: 24px;
       top: 0;
@@ -2078,7 +2078,7 @@ let startFunk = setInterval(() => {
           <h3>No suitable times for you?</h3>
           <p>Call or text us <a href="tel:+17787711847">(778) 771-1847</a></p>
           <div>
-            <img src="https://ripdamanm.github.io/img/our_consultants.png" alt="Our consultants" />
+            <img src="https://ripdamanm.github.io/our_consultants.png" alt="Our consultants" />
             <p>Our consultants are ready to help you</p>
           </div>
         </div>
@@ -2090,9 +2090,9 @@ let startFunk = setInterval(() => {
         <h2>As Seen On</h2>
         <div>
           <div class="img_wrapper">
-            <img src="https://ripdamanm.github.io/img/forbes.png" alt="Forbes" />
-            <img src="https://ripdamanm.github.io/img/cbc.png" alt="CBC" />
-            <img src="https://ripdamanm.github.io/img/macleans.png" alt='Macleans' />
+            <img src="https://ripdamanm.github.io/forbes.png" alt="Forbes" />
+            <img src="https://ripdamanm.github.io/cbc.png" alt="CBC" />
+            <img src="https://ripdamanm.github.io/macleans.png" alt='Macleans' />
           </div>
           <div class="count_txt_wrapper">
             <div>
