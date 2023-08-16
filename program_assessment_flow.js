@@ -2076,7 +2076,7 @@ let startFunk = setInterval(() => {
         </div>
         <div class="our_consultants_wrapper">
           <h3>No suitable times for you?</h3>
-          <p>Call or text us <a href="tel:+17787711847">(778) 771-1847</a></p>
+          <p>Call or text us <a href="tel:+17787710885">(778) 771-0885</a></p>
           <div>
             <img src="https://ripdamanm.github.io/our_consultants.png" alt="Our consultants" />
             <p>Our consultants are ready to help you</p>
