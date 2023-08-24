@@ -2067,7 +2067,7 @@ padding: 0;
                         </div>
                         <button class="schedule_call_btn" disabled type="submit">Schedule a Call</button>
                         <button class="next_btn_for_parent" disabled type="submit">Next</button>
-                    </form>2
+                    </form>
                  </div>
             <div class="time_zone_wrapper">
                 <span>Time Zone:</span>
